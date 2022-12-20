@@ -1,0 +1,137 @@
+.prosol-page {
+  display: block;
+  height: 1730px;
+  width: 100%;
+  position: relative;
+  background-color: white;
+}
+.prosol-page .header-screen-prosol {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.prosol-page .header-screen-prosol .prosol-logo-service {
+  height: 200px;
+  width: 350px;
+  object-fit: contain;
+}
+.prosol-page .header-screen-prosol .prosol-high-size {
+  width: 700px;
+  height: 150px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  color: #333336;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.prosol-page .header-screen-prosol .prosol-high-size h4 {
+  margin: 8px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.carousel-inner {
+  height: 500px;
+  width: 720px;
+  box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.094);
+  position: relative;
+  top: 25px;
+  left: 300px;
+}
+.accesspermission {
+  height: 500px;
+  width: 500px;
+  object-fit: contain;
+}
+
+.prosol-page .para-screen-1 {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.prosol-page .para-screen-1 .para-part1 {
+  width: 1150px;
+  height: 170.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+.prosol-page .para-screen-1 .para-part1 span {
+  color: #f42c17;
+  font-size: 19px;
+  font-weight: 700;
+}
+.prosol-page .para-screen-1 .para-part1 p {
+  text-align: justify;
+}
+.prosol-page .para-screen-1 .para-part2 {
+  width: 1150px;
+  height: 170.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+.prosol-page .para-screen-1 .para-part2 span {
+  color: #f42c17;
+  font-size: 19px;
+  font-weight: 700;
+}
+.prosol-page .para-screen-1 .para-part2 p {
+  text-align: justify;
+}
+.prosol-page .para-screen-2 {
+  width: 100%;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f6f9;
+}
+.prosol-page .para-screen-2 .para2-part1 {
+  height: 450px;
+  width: 1150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+.prosol-page .para-screen-2 .para2-part1 span {
+  color: #f42c17;
+  font-size: 19px;
+  font-weight: 700;
+}
+.prosol-page .para-screen-2 .para2-part1 p {
+  text-align: justify;
+}
+.prosol-page .para-screen-2 .prosol-high-size-2 {
+  width: 800px;
+  height: 150px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  color: #333336;
+  margin-left: 230px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.prosol-page .para-screen-2 .prosol-high-size-2 h4 {
+  margin: 0px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}

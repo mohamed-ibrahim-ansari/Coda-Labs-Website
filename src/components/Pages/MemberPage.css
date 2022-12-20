@@ -1,0 +1,90 @@
+.member-part-screen {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.member-part-screen .member-desc {
+  height: 150px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.member-part-screen .member-desc h5 {
+  width: 55%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.2em;
+}
+.member-part-screen .member-desc span {
+  background: #fff;
+  color: #f42c17;
+  padding: 0px 7px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+}
+.member-part-screen .member-desc h2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #373737;
+  padding-top: 10px;
+}
+.member-part-screen .member-desc h2 span {
+  color: red;
+  font-weight: 600;
+  font-size: 30px;
+}
+.member-part-screen .member-desc .member-high-size {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.member-part-screen .member-desc .member-high-size h2 {
+  margin: 0;
+}
+
+.member-part-screen .member-img-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100vw;
+  gap: 20px;
+}
+
+.member-part-screen .member-img-card img {
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
+}
+
+.member-part-screen .member-img-card .member-img-card-wrapper {
+  height: 250px;
+  width: 250px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.099);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.member-part-screen .member-img-card h6 {
+  color: rgb(42, 41, 41);
+  font-family: "Work  sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+  padding-left: 80px;
+  padding-top: 20px;
+}
+.member-part-screen .member-img-card p {
+  color: rgb(123, 123, 123);
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  padding-left: 80px;
+}

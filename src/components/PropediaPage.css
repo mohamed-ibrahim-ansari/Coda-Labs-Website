@@ -1,0 +1,89 @@
+.propedia-page {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.propedia-page .header-screen-propedia {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.propedia-page .header-screen-propedia .propedia-page-logo {
+  height: 79px;
+  width: 198px;
+  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.propedia-page .header-screen-propedia .propedia-high-size {
+  font-family: "Work Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  height: 90px;
+  width: 800px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.propedia-page .header-screen-propedia .propedia-high-size h4 {
+  letter-spacing: 1px;
+  width: 700px;
+  margin: 8px;
+  font-family: "Work Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.propedia-page .header-screen-propedia .main-img-propedia {
+  height: 500px;
+  width: 700px;
+  object-fit: contain;
+  box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.094);
+}
+.propedia-page .para-screen-propedia {
+  width: 1110px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.propedia-page .para-screen-propedia span {
+  color: red;
+  margin-left: 80px;
+}
+.propedia-page .para-screen-propedia p {
+  width: 1110px;
+  margin-left: 80px;
+  text-align: justify;
+}
+.propedia-page .para-screen-propedia-2 {
+  height: 250px;
+  width: 100%;
+  background-color: #f2f6f9;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: justify;
+}
+.propedia-page .para-screen-propedia-2 span {
+  color: #f42c17;
+  margin-left: 80px;
+}
+.propedia-page .para-screen-propedia-2 ul {
+  margin-left: 90px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.propedia-page .para-screen-propedia-2 ul li {
+  margin: 8px;
+}

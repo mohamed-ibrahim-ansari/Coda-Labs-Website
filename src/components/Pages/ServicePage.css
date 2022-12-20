@@ -1,0 +1,140 @@
+.cards-part-screen {
+  height: 609px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cards-part-screen .cards-screen-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.cards-part-screen .desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+}
+.cards-part-screen .desc h5 {
+  width: 15%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.3em;
+}
+.cards-part-screen .desc h5 span {
+  background: #fff;
+  color: #f42c17;
+  padding: 0 10px;
+  font-family: "Poppins", sans-serif;
+}
+.cards-part-screen .desc .red-wedo {
+  height: 60px;
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cards-part-screen .desc .red-wedo h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  color: #373737;
+}
+
+.cards-part-screen .desc .red-wedo span {
+  color: red;
+}
+.cards-part-screen .cards {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.cards-part-screen .cards .card-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 310px;
+  width: 1000px;
+}
+.cards-part-screen .cards .card-wrap h6,
+p {
+  color: #7b7b7b;
+}
+.cards-part-screen .cards .card-wrap h6 {
+  font-size: 13px;
+}
+.cards-part-screen .cards .card-wrap h4 {
+  font-size: 17px;
+}
+.cards-part-screen .cards .card-wrap .card {
+  height: 350px;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 9px;
+}
+
+.cards-part-screen .cards .card-wrap .card:hover {
+  border: 2px solid red;
+}
+
+.cards-part-screen .cards .card-wrap .card .card1-container {
+  padding-top: 50px;
+  padding-left: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.cards-part-screen .cards .card-wrap .card .card1-container p {
+  text-align: justify;
+  line-height: 20px;
+}
+.cards-part-screen .cards .card-wrap .card .card2-container {
+  padding-top: 70px;
+  padding-left: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.cards-part-screen .cards .card-wrap .card .card2-container p {
+  text-align: justify;
+  line-height: 20px;
+}
+.cards-part-screen .cards .card-wrap .card .card3-container {
+  padding-left: 30px;
+  padding-top: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.cards-part-screen .cards .card-wrap .card .card3-container p {
+  text-align: justify;
+  line-height: 20px;
+}
+#prosol {
+  position: relative;
+  top: 20px;
+
+  width: 200px;
+}
+#propedia {
+  position: relative;
+
+  top: 30px;
+  width: 150px;
+}
+#goospares {
+  position: relative;
+
+  top: 8px;
+  transform: scale(0.7);
+}

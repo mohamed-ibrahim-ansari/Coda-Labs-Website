@@ -1,0 +1,199 @@
+.pop_up_screen_wrap {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.734);
+  position: fixed;
+  top: 0;
+}
+.pop_up_screen_wrap .pop_up_screen {
+  display: block;
+  height: 500px;
+  width: 850px;
+  margin-left: 200px;
+  margin-top: 80px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.106);
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.pop_up_screen_wrap .pop_up_screen .contact-desc {
+  height: 50px;
+  width: 851px;
+  background-color: #f42c17;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.pop_up_screen_wrap .pop_up_screen .contact-desc h5 {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-left: 45px;
+}
+
+.pop_up_screen_wrap .pop_up_screen .contact-desc button {
+  color: #fff;
+  background-color: #f42c17;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.pop_up_screen_wrap .pop_up_screen .whole-contact-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 90%;
+  width: 750px;
+}
+
+.pop_up_screen_wrap
+  .pop_up_screen
+  .whole-contact-wrap
+  .contact-wrapper1
+  .form-list {
+  height: 400px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: space-evenly;
+  font-family: "Work Sans", sans-serif;
+}
+.pop_up_screen_wrap
+  .pop_up_screen
+  .whole-contact-wrap
+  .contact-wrapper1
+  .form-list
+  form {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pop_up_screen_wrap
+  .pop_up_screen
+  .whole-contact-wrap
+  .contact-wrapper1
+  .form-list
+  .alert_email {
+  color: #f42c17;
+  font-size: 10px;
+  display: none;
+}
+.pop_up_screen_wrap
+  .pop_up_screen
+  .whole-contact-wrap
+  .contact-wrapper1
+  .form-list
+  .mail-status {
+  color: #f42c17;
+  font-size: 13px;
+
+  display: none;
+}
+.pop_up_screen_wrap
+  .pop_up_screen
+  .whole-contact-wrap
+  .contact-wrapper1
+  .form-list
+  .form-control-form-group {
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.pop_up_screen_wrap
+  .pop_up_screen
+  .whole-contact-wrap
+  .contact-wrapper1
+  .form-list
+  .form-control-form-group:focus {
+  box-shadow: none;
+  outline: none;
+  border-bottom: 2px solid #f42c17;
+}
+.pop_up_screen_wrap
+  .pop_up_screen
+  .whole-contact-wrap
+  .contact-wrapper1
+  .form-list
+  textarea {
+  resize: none;
+}
+.pop_up_screen_wrap
+  .pop_up_screen
+  .whole-contact-wrap
+  .contact-wrapper1
+  .form-list
+  .form-control-form-group::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.pop_up_screen_wrap
+  .pop_up_screen
+  .whole-contact-wrap
+  .contact-wrapper1
+  .form-list
+  .Send-message {
+  border: none;
+  background-color: #f42c17;
+  color: #fff;
+  padding: 10px 15px;
+  width: 100%;
+  margin-top: 25px;
+  border-radius: 35px;
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.pop_up_screen_wrap .pop_up_screen .whole-contact-wrap .content-list {
+  width: 320px;
+  height: 300px;
+  position: relative;
+  left: 140px;
+  padding-left: 40px;
+  background-color: #2d2d2d;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: white;
+}
+.pop_up_screen_wrap .pop_up_screen .whole-contact-wrap .content-list h1 {
+  font-family: "Work Sans", sans-serif;
+  position: relative;
+  top: 12px;
+}
+.pop_up_screen_wrap .pop_up_screen .whole-contact-wrap .content-list h6 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 3%;
+  text-align: right;
+}
+#phone-icon {
+  position: relative;
+  top: 28px;
+  right: 80px;
+}
+#mail-icon {
+  position: relative;
+  top: 28px;
+  right: 80px;
+}
+#address-icon {
+  position: relative;
+  top: 28px;
+  right: 80px;
+}
