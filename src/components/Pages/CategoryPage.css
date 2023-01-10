@@ -75,8 +75,8 @@
 .category .cat-list-wrap ul li {
   height: 70px;
   width: 230px;
-  padding: 15px 30px;
-  margin: 5px 15px;
+  margin: 10px 10px;
+  padding: 25px 30px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 13px;
@@ -94,56 +94,56 @@
 .category .cat-list-wrap .arrow1 {
   position: relative;
   left: 60px;
-  bottom: 13px;
+  bottom: 25px;
   width: 10px;
   height: 10px;
 }
 .category .cat-list-wrap .arrow2 {
   position: relative;
   left: 105px;
-  bottom: 30px;
+  bottom: 40px;
   width: 10px;
   height: 10px;
 }
 .category .cat-list-wrap .arrow3 {
   position: relative;
   left: 65px;
-  bottom: 13px;
+  bottom: 25px;
   width: 10px;
   height: 10px;
 }
 .category .cat-list-wrap .arrow4 {
   position: relative;
   left: 35px;
-  bottom: 13px;
+  bottom: 25px;
   width: 10px;
   height: 10px;
 }
 .category .cat-list-wrap .arrow5 {
   position: relative;
   left: 63px;
-  bottom: 15px;
+  bottom: 25px;
   width: 10px;
   height: 10px;
 }
 .category .cat-list-wrap .arrow6 {
   position: relative;
   left: 45px;
-  bottom: 13px;
+  bottom: 25px;
   width: 10px;
   height: 10px;
 }
 .category .cat-list-wrap .arrow7 {
   position: relative;
   left: 45px;
-  bottom: 13px;
+  bottom: 25px;
   width: 10px;
   height: 10px;
 }
 .category .cat-list-wrap .arrow8 {
   position: relative;
   left: 30px;
-  bottom: 13px;
+  bottom: 25px;
   width: 10px;
   height: 10px;
 }

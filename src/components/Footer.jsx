@@ -8,7 +8,7 @@ import { AiFillCopyrightCircle } from "react-icons/ai";
 const Footer = () => {
   return (
     <div>
-      <footer id="screen-8">
+      <footer id="Footer">
         <div className="main-footer">
           <div className="footer-section-content">
             <h2 className="footer-coda-labs-wrap">

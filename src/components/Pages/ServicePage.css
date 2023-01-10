@@ -80,61 +80,43 @@ p {
 .cards-part-screen .cards .card-wrap .card:hover {
   border: 2px solid red;
 }
-
-.cards-part-screen .cards .card-wrap .card .card1-container {
-  padding-top: 50px;
-  padding-left: 15px;
+.cards-part-screen .cards .card-wrap .card .servicepage-image {
+  height: 80px;
+  width: 170px;
+  object-fit: contain;
+}
+.cards-part-screen .cards .card-wrap .card .card-container {
   font-family: "Poppins", sans-serif;
+  height: 230px;
+  width: 290px;
   font-size: 75%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.cards-part-screen .cards .card-wrap .card .card1-container p {
+.cards-part-screen .cards .card-wrap .card .card-container .servicepage-name {
+  height: 20px;
+  width: 250px;
+  text-align: justify;
+  padding-left: 20px;
+}
+.cards-part-screen
+  .cards
+  .card-wrap
+  .card
+  .card-container
+  .servicepage-description {
+  height: 20px;
+  width: 250px;
+  text-align: justify;
+  padding-left: 20px;
+}
+.cards-part-screen .cards .card-wrap .card .card-container .servicepage-text {
   text-align: justify;
   line-height: 20px;
-}
-.cards-part-screen .cards .card-wrap .card .card2-container {
-  padding-top: 70px;
-  padding-left: 15px;
-  font-family: "Poppins", sans-serif;
-  font-size: 75%;
+  height: 100px;
+  width: 250px;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-.cards-part-screen .cards .card-wrap .card .card2-container p {
-  text-align: justify;
-  line-height: 20px;
-}
-.cards-part-screen .cards .card-wrap .card .card3-container {
-  padding-left: 30px;
-  padding-top: 30px;
-  font-family: "Poppins", sans-serif;
-  font-size: 70%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-.cards-part-screen .cards .card-wrap .card .card3-container p {
-  text-align: justify;
-  line-height: 20px;
-}
-#prosol {
-  position: relative;
-  top: 20px;
-
-  width: 200px;
-}
-#propedia {
-  position: relative;
-
-  top: 30px;
-  width: 150px;
-}
-#goospares {
-  position: relative;
-
-  top: 8px;
-  transform: scale(0.7);
+  justify-content: center;
+  padding-left: 20px;
 }

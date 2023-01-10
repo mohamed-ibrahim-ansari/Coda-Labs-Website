@@ -1,15 +1,10 @@
 import React from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import headlogo from "../Images/logo1.png";
-const Header = (props) => {
-  const {
-    setProsolShow,
-    setPropediaShow,
-    setGoosparesShow,
-    setContentShow,
-    setContactusShow,
-  } = props;
+
+const Header = () => {
   return (
     <div>
       <header>
@@ -23,166 +18,51 @@ const Header = (props) => {
           <div className="navbar-links">
             <ul>
               <li>
-                <button
-                  onClick={() => {
-                    setContentShow(true);
-                    setProsolShow(false);
-                    setPropediaShow(false);
-                    setGoosparesShow(false);
-                    setContactusShow(false);
-                  }}
-                  className="navbar-button"
-                  id="home_call_id"
-                >
-                  <a href="#screen-1">Home</a>
-                </button>
+                <Link to={"/"} className="navbar-button">
+                  Home
+                </Link>
               </li>
               <li className="dropdown-service">
-                <button
-                  onClick={() => {
-                    setContentShow(true);
-                    setProsolShow(false);
-                    setPropediaShow(false);
-                    setGoosparesShow(false);
-                    setContactusShow(false);
-                  }}
-                  className="navbar-button"
-                  id="service_call_id"
-                >
-                  <a href="#screen-2">Services</a>
-                  <RiArrowDropDownLine />
-                </button>
+                <Link to={"/ServicePage"} className="navbar-button-service">
+                  Services
+                </Link>
+                <RiArrowDropDownLine  />
                 <div className="dropdown-service-content">
-                  <button
-                    onClick={() => {
-                      setProsolShow(true);
-                      setPropediaShow(false);
-                      setContentShow(false);
-                      setGoosparesShow(false);
-                      setContactusShow(false);
-                    }}
-                    className="navbar-button-drop"
-                    id="prosolbtn"
-                  >
-                    Prosol
+                  <button className="navbar-button-drop">
+                    <Link to="/ProsolPage">Prosol</Link>
                   </button>
-                  <button
-                    onClick={() => {
-                      setPropediaShow(true);
-                      setProsolShow(false);
-                      setContentShow(false);
-                      setGoosparesShow(false);
-                      setContactusShow(false);
-                    }}
-                    className="navbar-button-drop"
-                    id="propedia_call_id"
-                  >
-                    Propedia
+                  <button className="navbar-button-drop">
+                    <Link to="/PropediaPage">Propedia</Link>
                   </button>
-                  <button
-                    onClick={() => {
-                      setGoosparesShow(true);
-                      setContentShow(false);
-                      setPropediaShow(false);
-                      setProsolShow(false);
-                      setContactusShow(false);
-                    }}
-                    className="navbar-button-drop"
-                    id="goospares_call_id"
-                  >
-                    Goospares
+                  <button className="navbar-button-drop">
+                    <Link to="/GoosparesPage">Goospares</Link>
                   </button>
                 </div>{" "}
               </li>
               <li>
-                <button
-                  onClick={() => {
-                    setContentShow(true);
-                    setPropediaShow(false);
-                    setProsolShow(false);
-                    setGoosparesShow(false);
-                    setContactusShow(false);
-                  }}
-                  className="navbar-button"
-                  id="category_call_id"
-                >
-                  <a href="#screen-3">Category</a>
-                </button>
+                <Link to={"/CategoryPage"} className="navbar-button">
+                  Category
+                </Link>
               </li>
               <li>
-                <button
-                  onClick={() => {
-                    setContentShow(true);
-                    setPropediaShow(false);
-                    setProsolShow(false);
-                    setGoosparesShow(false);
-                    setContactusShow(false);
-                  }}
-                  className="navbar-button"
-                  id="projects_call_id"
-                >
-                  <a href="#screen-4">Projects</a>
-                </button>
+                <Link to={"/ProjectsPage"} className="navbar-button">
+                  Projects
+                </Link>
               </li>
               <li>
-                <button
-                  onClick={() => {
-                    setContentShow(true);
-                    setPropediaShow(false);
-                    setProsolShow(false);
-                    setGoosparesShow(false);
-                    setContactusShow(false);
-                  }}
-                  className="navbar-button"
-                  id="blog_call_id"
-                >
-                  <a href="#screen-5">Blog</a>
-                </button>
+                <Link to={"/BlogPage"} className="navbar-button">
+                  Blog
+                </Link>
               </li>
               <li>
-                <button
-                  onClick={() => {
-                    setContentShow(true);
-                    setPropediaShow(false);
-                    setProsolShow(false);
-                    setGoosparesShow(false);
-                    setContactusShow(false);
-                  }}
-                  className="navbar-button"
-                  id="team_call_id"
-                >
-                  <a href="#screen-6">Team</a>
-                </button>
+                <Link to={"/MemberPage"} className="navbar-button">
+                  Teams
+                </Link>
               </li>
               <li>
-                <button
-                  onClick={() => {
-                    setContentShow(true);
-                    setPropediaShow(false);
-                    setProsolShow(false);
-                    setGoosparesShow(false);
-                    setContactusShow(false);
-                  }}
-                  className="navbar-button"
-                  id="clients_call_id"
-                >
-                  <a href="#screen-7">Clients</a>
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => {
-                    setContentShow(true);
-                    setPropediaShow(false);
-                    setProsolShow(false);
-                    setGoosparesShow(false);
-                    setContactusShow(false);
-                  }}
-                  className="navbar-button"
-                  id="contact_us_call_id"
-                >
-                  <a href="#screen-8">Contact Us</a>
-                </button>
+                <Link to={"/ClientsPage"} className="navbar-button">
+                  Clients
+                </Link>
               </li>
             </ul>
           </div>

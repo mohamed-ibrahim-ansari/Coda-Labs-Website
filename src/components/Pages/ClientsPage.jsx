@@ -15,7 +15,7 @@ import airindia from "../../Icons/airindialogo.svg";
 const ClientsPage = () => {
   return (
     <div>
-      <div className="client-part-screen" id="screen-7">
+      <div className="client-part-screen" id="ClientsPage">
         <div className="client-desc">
           <h5>
             <span>Our Clients</span>

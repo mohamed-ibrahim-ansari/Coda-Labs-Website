@@ -52,10 +52,15 @@
 .header-part-screen .content span {
   color: red;
 }
-
+.header-part-screen .content .btnWrapHome{
+  height: 50px;
+  width: 230px;
+  display: flex;
+  justify-content: space-between;
+}
 .header-part-screen .content .btn-contact {
   height: 45px;
-  width: 90px;
+  width: 110px;
   background-color: red;
   font-weight: bold;
   border-radius: 3px;
@@ -65,7 +70,18 @@
   cursor: pointer;
   font-size: 13px;
 }
-
+.header-part-screen .content .btn-createAccount{
+  height: 45px;
+  width: 110px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 13px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.361);
+}
 .header-part-screen .sticky-container {
   padding: 0px;
   margin: 0px;

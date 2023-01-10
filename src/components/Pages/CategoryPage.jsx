@@ -5,7 +5,7 @@ import "./CategoryPage.css";
 const CategoryPage = () => {
   return (
     <div>
-      <div className="category" id="screen-3">
+      <div className="category" id="CategoryPage">
         <div className="cat-desc">
           <h5>
             <span>Our Category</span>

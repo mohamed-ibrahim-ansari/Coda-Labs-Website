@@ -46,45 +46,46 @@
 .member-part-screen .member-desc .member-high-size h2 {
   margin: 0;
 }
-
-.member-part-screen .member-img-card {
+.member-part-screen .Team-Map-Div {
+  height: 300px;
+  width: 1050px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+}
+.member-part-screen .Team-Map-Div .member-img-card {
   height: 300px;
-  width: 100vw;
-  gap: 20px;
+  width: 1250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.member-part-screen .member-img-card img {
-  height: 250px;
-  width: 250px;
+.member-part-screen .Team-Map-Div .member-img-card .Team-Image {
+  height: 158px;
+  width: 200px;
   object-fit: contain;
 }
 
-.member-part-screen .member-img-card .member-img-card-wrapper {
-  height: 250px;
-  width: 250px;
+.member-part-screen .Team-Map-Div .member-img-card .member-img-card-wrapper {
+  height: 230px;
+  width: 200px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.099);
   border-radius: 3px;
   display: flex;
   flex-direction: column;
 }
 
-.member-part-screen .member-img-card h6 {
+.member-part-screen .Team-Map-Div .member-img-card .Team-Name {
   color: rgb(42, 41, 41);
   font-family: "Work  sans", sans-serif;
   font-size: 15px;
   font-weight: 600;
   margin: 0;
-  padding-left: 80px;
   padding-top: 20px;
 }
-.member-part-screen .member-img-card p {
+.member-part-screen .Team-Map-Div .member-img-card .Team-Map-Div .Team-Role {
   color: rgb(123, 123, 123);
   font-family: "Work Sans", sans-serif;
   font-size: 12px;
   font-weight: 600;
-  padding-left: 80px;
 }

@@ -17,7 +17,7 @@ const ContactusPage = (props) => {
   const sendEmail = (event) => {
     event.preventDefault();
     emailjs
-    .sendForm(
+      .sendForm(
         "service_329j6jl",
         "template_0wp590b",
         form.current,
@@ -29,14 +29,16 @@ const ContactusPage = (props) => {
         },
         (error) => {
           console.log(error.text);
+          console.log(email);
         }
-        );
-        event.target.reset();
+      );
+    event.target.reset();
+    setContactusShow(false);
   };
 
   return (
     <div>
-      <div className="pop_up_screen_wrap" id="screen8">
+      <div className="pop_up_screen_wrap">
         <div className="pop_up_screen">
           <div className="contact-desc">
             <h5>Contact Us</h5>
@@ -68,7 +70,6 @@ const ContactusPage = (props) => {
                     className="form-control-form-group"
                     placeholder="Email"
                     onChange={EmailHandler}
-                    value={email}
                     required
                   />
 
@@ -95,16 +96,6 @@ const ContactusPage = (props) => {
                     Thank You for contacting CODA LABS
                   </span>
                 </form>
-
-                {/* <script>
-                  if ( window.history.replaceState ){" "}
-                  {window.history.replaceState(
-                    null,
-                    null,
-                    window.location.href
-                    )}
-                    ;
-                  </script> */}
               </div>
             </div>
             <div className="content-list">

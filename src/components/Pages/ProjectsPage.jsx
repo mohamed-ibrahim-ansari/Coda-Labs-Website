@@ -4,7 +4,7 @@ import "./ProjectsPage.css";
 const ProjectsPage = () => {
   return (
     <div>
-      <div className="projects-parts-screen" id="screen-4">
+      <div className="projects-parts-screen" id="ProjectsPage">
         <div className="desc-projects">
           <h5>
             <span> Our Projects</span>
