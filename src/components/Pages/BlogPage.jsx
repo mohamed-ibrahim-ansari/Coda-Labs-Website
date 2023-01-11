@@ -26,7 +26,6 @@ const BlogPage = (props) => {
               <div key={Content.id} className="blog-card-wrap">
                 <div className="blog-card">
                   <img
-                    key={Content.avatar}
                     src={Content.avatar}
                     alt="Product-img"
                     className="blog-img"
