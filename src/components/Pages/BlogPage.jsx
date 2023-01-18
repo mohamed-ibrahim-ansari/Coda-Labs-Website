@@ -1,10 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import "./BlogPage.css";
-import { BiStopwatch } from "react-icons/bi";
-import { BsFillPersonFill } from "react-icons/bs";
-import { BiComment } from "react-icons/bi";
 import PropertyContent from "../../data/Content";
+import "./BlogPage.css";
 
 const BlogPage = (props) => {
   const [Content, setContent] = useState([]);
@@ -20,29 +17,46 @@ const BlogPage = (props) => {
           </h5>
           <h2>Every Single Update From Here</h2>
         </div>
+
         <div className="map-div">
           {Content.map((Content) => {
             return (
               <div key={Content.id} className="blog-card-wrap">
                 <div className="blog-card">
                   <img
-                    src={Content.avatar}
+                    src={Content.image}
                     alt="Product-img"
                     className="blog-img"
                   />
                   <div className="blog-card-container">
-                    <h4 className="Blog-name">{Content.name}</h4>
+                    <h4 className="Blog-name">{Content.title}</h4>
                     <div className="tiny-logo">
-                      <BiStopwatch className={"blog-logo1"} />
-                      <h6 className="date">{Content.Date}</h6>
-                      <BsFillPersonFill className={"blog-logo1"} />
-                      <h6 className="tiny-name">{Content.tinyName}</h6>
-                      <BiComment className={"blog-logo1"} />
-                      <h6 className="comments">{Content.comments}</h6>
+                      <img
+                        src={Content.icon}
+                        alt="StopIcon"
+                        className="blog-logo1"
+                      />
+                      <h6 className="date">{Content.description.date}</h6>
+                      <img
+                        src={Content.icon2}
+                        alt="StopIcon"
+                        className="blog-logo2"
+                      />
+                      <h6 className="tiny-name">
+                        {Content.description.tinyname}
+                      </h6>
+                      <img
+                        src={Content.icon3}
+                        alt="StopIcon"
+                        className="blog-logo3"
+                      />
+                      <h6 className="comments">
+                        {Content.description.comment}
+                      </h6>
                     </div>
 
-                    <p className="text-card">{Content.text}</p>
-                    <button className="readmore">Read More</button>
+                    <p className="text-card">{Content.content}</p>
+                    <button className="readmore"> {Content.button}</button>
                   </div>
                 </div>
               </div>

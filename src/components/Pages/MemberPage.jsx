@@ -1,13 +1,14 @@
 import React from "react";
+import TeamContent from "../../data/Content-Team";
 import { useState, useEffect } from "react";
 import "./MemberPage.css";
-import TeamContent from "../../data/Content-Team";
 
 const MemberPage = (props) => {
-  const [memberContent, setMemberContent] = useState([]);
+  const [memberContent, setmemberContent] = useState([]);
   useEffect(() => {
-    setMemberContent(TeamContent);
+    setmemberContent(TeamContent);
   }, []);
+
   return (
     <div>
       <div className="member-part-screen" id="MemberPage">
@@ -23,6 +24,7 @@ const MemberPage = (props) => {
             </h2>
           </div>
         </div>
+
         <div className="Team-Map-Div">
           {memberContent.map((memberContent) => {
             return (
@@ -34,8 +36,8 @@ const MemberPage = (props) => {
                     src={memberContent.image}
                     alt="Member1"
                   ></img>
-                  <h6 className="Team-Name">{memberContent.name}</h6>
-                  <p className="Team-Role">{memberContent.role}</p>
+                  <h6 className="Team-Name">{memberContent.title}</h6>
+                  <p className="Team-Role">{memberContent.description}</p>
                 </div>
               </div>
             );

@@ -6,26 +6,26 @@ import Member4 from "../Images/member-img-4.jpg";
 const TeamContent = [
   {
     id: 1,
-    name: "Gustavo Herwitz",
-    role: "UI/UX Designer",
+    title: "Gustavo Herwitz",
+    description: "UI/UX Designer",
     image: Member1,
   },
   {
     id: 2,
-    name: "Philip Curtis",
-    role: "Graphic Designer",
+    title: "Philip Curtis",
+    description: "Graphic Designer",
     image: Member2,
   },
   {
     id: 3,
-    name: "Talan Torff",
-    role: "Web Developer",
+    title: "Talan Torff",
+    description: "Web Developer",
     image: Member3,
   },
   {
     id: 4,
-    name: "Abram Vaccaro",
-    role: "App Developer",
+    title: "Abram Vaccaro",
+    description: "App Developer",
     image: Member4,
   },
 ];
